@@ -3,3 +3,4 @@
 #Filename: test_ingore.py
 
 print '测试忽略'
+print '测试ibus'
