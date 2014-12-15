@@ -9,7 +9,7 @@ import time
 source = ['/home/zonek/testa', '/home/zonek/testb']
 target_dir = '/home/zonek/backup'
 target = target_dir + time.strftime('%Y%m%d%H%M%S') + '.zip'
-zip_command = "zip -qr '%s' %s" % (target, ''.join(source))
+zip_command = "zip -qr '%s' %s" % (target, ' '.join(source))
 
 if os.system(zip_command) == 0:
     print '备份成功：', target
