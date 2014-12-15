@@ -3,11 +3,11 @@
 #Filename: break.py
 
 while True:
-	s = raw_input('请输入：')
-	if s == '离开':
-		print '结束'
-		break
-	print len(s)
+    s = raw_input('请输入：')
+    if s == '离开':
+        print '结束'
+    break
+    print len(s)
 
 else:
-	print '啊哈'
+    print '啊哈'
