@@ -3,3 +3,4 @@
 #Filename: test_pycharm.py
 
 print 'Test Pycharm'
+print 'Test Pycharm V3'
