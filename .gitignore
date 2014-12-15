@@ -6,6 +6,9 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+*.idea*
+idea/
+.idea
 .Python
 env/
 build/
@@ -52,3 +55,5 @@ docs/_build/
 
 # PyBuilder
 target/
+
+.gitignore
