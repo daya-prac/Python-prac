@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #coding: utf-8
 #Filename: backup_v1.py
-
 import os
 import time
 
@@ -13,5 +12,4 @@ zip_command = "zip -qr '%s' %s" % (target, ' '.join(source))
 if os.system(zip_command) == 0:
     print 'Succeful backup to', target
 else:
-    print 'Backup failed'
-
+    print 'Backup failed!'
