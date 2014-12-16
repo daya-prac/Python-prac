@@ -10,7 +10,7 @@ target_dir = '/home/zonek/backup'
 target = target_dir + time.strftime('%Y%m%d%H%M%S') + '.zip'
 zip_command = "zip -qr '%s' %s" % (target, ' '.join(source))
 
-if os.system(zip_command):
+if os.system(zip_command) == 0:
     print '备份成功%s' % target
 else:
     print '备份失败'
