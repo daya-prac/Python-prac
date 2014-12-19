@@ -21,13 +21,13 @@ if len(comment) == 0:
     target = today + os.sep + now + '.zip'
     zip_command = 'zip -qr %s %s' % (target, " ".join(source))
     if os.system(zip_command) == 0:
-        print '备份成功：',target
+        print '备份成功：', target
     else:
         print '备份失败'
 else:
     target = today + os.sep + now + '_' + comment + '.zip'
     zip_command = 'zip -qr %s %s' % (target, " ".join(source))
     if os.system(zip_command) == 0:
-        print '备份成功：',target
+        print '备份成功：', target
     else:
         print '备份失败'
